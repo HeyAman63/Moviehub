@@ -14,9 +14,9 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#0F172A",
-        "foregroundImage": "./assets/images/logo_foregroun.jpeg",
-        "backgroundImage": "./assets/images/logo_backgroun.jpeg",
-        "monochromeImage": "./assets/images/logo_monochrom.jpeg"
+        "foregroundImage": "./assets/images/logo_foregroun.jpg",
+        "backgroundImage": "./assets/images/logo_backgroun.jpg",
+        "monochromeImage": "./assets/images/logo_monochrom.jpg"
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
@@ -32,7 +32,7 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash_logo.jpeg",
+          "image": "./assets/images/splash_logo.jpg",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff",
