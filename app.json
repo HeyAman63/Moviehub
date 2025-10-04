@@ -1,10 +1,10 @@
 {
   "expo": {
     "name": "MovieFlix",
-    "slug": "movie-flix",
+    "slug": "movieflix",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/logo.png",
+    "icon": "./assets/images/logo2.jpeg",
     "scheme": "movieflix",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -13,10 +13,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/logo.png",
-        "backgroundImage": "./assets/images/logo.png",
-        "monochromeImage": "./assets/images/logo.png"
+        "backgroundColor": "#0F172A",
+        "foregroundImage": "./assets/images/logo_foregroun.jpeg",
+        "backgroundImage": "./assets/images/logo_backgroun.jpeg",
+        "monochromeImage": "./assets/images/logo_monochrom.jpeg"
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
@@ -31,7 +31,7 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/logo.png",
+          "image": "./assets/images/aplash_logo.jpeg",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff",
@@ -44,6 +44,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "5ead4d8e-4f7c-40a5-8dd5-0f70ed3c9fcb"
+      }
+    },
+    "owner": "heyaman63"
   }
 }
