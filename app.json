@@ -4,7 +4,7 @@
     "slug": "movieflix",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/logo2.jpeg",
+    "icon": "./assets/images/logo2.png",
     "scheme": "movieflix",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -14,9 +14,9 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#0F172A",
-        "foregroundImage": "./assets/images/logo_foregroun.jpg",
-        "backgroundImage": "./assets/images/logo_backgroun.jpg",
-        "monochromeImage": "./assets/images/logo_monochrom.jpg"
+        "foregroundImage": "./assets/images/logo_foreground.png",
+        "backgroundImage": "./assets/images/logo_background.png",
+        "monochromeImage": "./assets/images/logo_monochrome.png"
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
@@ -32,7 +32,7 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash_log.jpg",
+          "image": "./assets/images/splash_logo.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff",
